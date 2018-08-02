@@ -1,0 +1,7 @@
+{
+    "name": "captcha",
+    "description": "captcha component",
+    "scripts": ["index.js"],
+    "main": "index.js",
+    "dependencies": {}
+}
