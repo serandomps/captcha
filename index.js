@@ -2,7 +2,7 @@ var ready = false;
 
 var pending = [];
 
-var captchaKey = $('#content').data('captcha-key');
+var captchaKey = sera.captchaKey;
 
 var render = function (el, options, done) {
     var id = grecaptcha.render(el, {
