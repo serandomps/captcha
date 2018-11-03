@@ -32,3 +32,7 @@ module.exports.render = function (el, options, done) {
 module.exports.response = function (id, done) {
     done(null, grecaptcha.getResponse(id));
 };
+
+module.exports.reset = function (id, done) {
+    done(null, grecaptcha.reset(id));
+};
